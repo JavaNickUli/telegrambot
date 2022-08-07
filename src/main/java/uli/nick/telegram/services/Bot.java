@@ -20,6 +20,7 @@ public class Bot extends TelegramLongPollingBot {
     @Override
     public void onUpdateReceived(Update update) {
         String text = update.getMessage().getText().trim();
+        System.out.println(update.getMessage().toString());
         if (text.codePointAt(0) == '/') {
             text = BotCom.valueOf(text.substring(1).toUpperCase()).apply(update);
 

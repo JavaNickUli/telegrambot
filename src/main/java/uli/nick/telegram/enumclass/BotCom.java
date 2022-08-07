@@ -20,7 +20,7 @@ public enum BotCom {
         return update.getMessage().getChatId().toString();
     }),
     TEST(update -> {
-        return "Test callback";
+        return "/UserInfo";
     }),
     IDINFO(update -> {
         StringBuilder output = new StringBuilder("ID:");
