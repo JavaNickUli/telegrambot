@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f64f877-9bcf-4d6e-82d4-843a5429bcac" name="Changes" comment="BotCom edit">
+    <list default="true" id="4f64f877-9bcf-4d6e-82d4-843a5429bcac" name="Changes" comment="Bot BotCom edit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/uli/nick/telegram/enumclass/Send.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uli/nick/telegram/enumclass/BotCom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uli/nick/telegram/enumclass/BotCom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/uli/nick/telegram/services/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uli/nick/telegram/services/Bot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +88,7 @@
       <workItem from="1659778704301" duration="9118000" />
       <workItem from="1659799924376" duration="8381000" />
       <workItem from="1659866221278" duration="866000" />
-      <workItem from="1659867106418" duration="16518000" />
+      <workItem from="1659867106418" duration="19934000" />
     </task>
     <task id="LOCAL-00001" summary="Init App">
       <created>1659783496427</created>
@@ -139,7 +139,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659885666372</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Bot BotCom edit">
+      <created>1659895286880</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659895286880</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Bot BotCom edit">
+      <created>1659895301962</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659895301962</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,8 +176,8 @@
     <MESSAGE value="Bot" />
     <MESSAGE value="Bot edit" />
     <MESSAGE value="CommandExecution" />
-    <MESSAGE value="Bot BotCom edit" />
     <MESSAGE value="BotCom edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="BotCom edit" />
+    <MESSAGE value="Bot BotCom edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bot BotCom edit" />
   </component>
 </project>
