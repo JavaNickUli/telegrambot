@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f64f877-9bcf-4d6e-82d4-843a5429bcac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uli/nick/telegram/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uli/nick/telegram/services/Bot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+    <list default="true" id="4f64f877-9bcf-4d6e-82d4-843a5429bcac" name="Changes" comment="Bot">
+      <change afterPath="$PROJECT_DIR$/src/main/java/uli/nick/telegram/enumclass/CommandExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uli/nick/telegram/services/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uli/nick/telegram/services/Bot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -55,10 +49,11 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "inlay.hints",
     "spring.configuration.checksum": "ad509bae25bff24934ade98570462d7f"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="uli.nick.app.B" />
       <module name="telegrambot" />
@@ -102,8 +97,31 @@
       <updated>1659538619928</updated>
       <workItem from="1659538621213" duration="4038000" />
       <workItem from="1659695490174" duration="19150000" />
-      <workItem from="1659778704301" duration="3230000" />
+      <workItem from="1659778704301" duration="9118000" />
+      <workItem from="1659799924376" duration="3072000" />
     </task>
+    <task id="LOCAL-00001" summary="Init App">
+      <created>1659783496427</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659783496427</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Init yaml">
+      <created>1659783674962</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659783674962</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Bot">
+      <created>1659783698892</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659783698892</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,5 +137,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init App" />
+    <MESSAGE value="Init yaml" />
+    <MESSAGE value="Bot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bot" />
   </component>
 </project>

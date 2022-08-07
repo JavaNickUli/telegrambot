@@ -4,9 +4,9 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
-import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
+import uli.nick.telegram.enumclass.CommandExecution;
 
 @Component
 public class Bot extends TelegramLongPollingBot {
@@ -19,19 +19,23 @@ public class Bot extends TelegramLongPollingBot {
 
     @Override
     public void onUpdateReceived(Update update) {
-        Message message = update.getMessage();
-        String chatId = message.getChatId().toString();
-        String text = update.getMessage().getText();
-        System.out.println(text);
-        if (text.equals("ChatId")) {
+        String text = update.getMessage().getText().trim();
+
+        if (text.codePointAt(0) == '/') {
+            text = CommandExecution.valueOf(text.substring(1).toUpperCase()).apply(update);
+
             try {
-                execute(new SendMessage(chatId, chatId));
+                execute(SendMessage
+                        .builder()
+                        .chatId(update.getMessage().getChatId().toString())
+                        .text(text)
+                        .build()
+                );
             } catch (TelegramApiException e) {
                 throw new RuntimeException(e);
             }
         }
     }
-
 
     @Override
     public String getBotUsername() {
